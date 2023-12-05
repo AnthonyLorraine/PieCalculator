@@ -6,6 +6,7 @@
     <title>Sum Calculator</title>
     <style>
       body {
+        transition: background-color 0.5s;
         font-family: Arial, sans-serif;
         text-align: center;
         margin-top: 50px;
@@ -22,19 +23,34 @@
         margin-bottom: 10px;
       }
 
-      button {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-      }
-
       #result {
         font-size: 18px;
         margin-top: 10px;
       }
+
+      .light {
+        background-color: #fff;
+        color: #333;
+      }
+
+      .dark {
+        background-color: #333;
+        color: #fff;
+      }
+
+      button {
+        padding: 10px;
+        font-size: 16px;
+        margin: 10px;
+      }
     </style>
   </head>
   <body>
+    <div>
+      <h1 style="color: darkcyan">Welcome to Pie Calculator</h1>
+      <button onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+
     <div id="calculator">
       <label for="num1">Cost of uneccessary purchase:</label>
       <input type="number" id="num1" placeholder="Enter first number" />
@@ -60,6 +76,11 @@
           document.getElementById("result").textContent =
             "Please enter valid numbers.";
         }
+      }
+      function toggleTheme() {
+        const body = document.body;
+        body.classList.toggle("light");
+        body.classList.toggle("dark");
       }
     </script>
   </body>
