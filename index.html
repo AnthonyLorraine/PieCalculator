@@ -56,6 +56,10 @@
       <input type="number" id="num1" placeholder="Enter first number" />
       <label for="num1">Pie cost:</label>
       <input type="number" id="num2" placeholder="Enter second number" />
+      <p>Or use these preset pies below</p>
+      <button onclick="mrsmacs()">Mr's Macs</button>
+      <button onclick="fourtwenty()">Four'n Twenty</button>
+      <button onclick="herbertadams()">Herbet Adams</button>
       <button onclick="calculateSum()">
         Calculate how many pies you're missing out on
       </button>
@@ -63,6 +67,24 @@
     </div>
 
     <script>
+      function mrsmacs() {
+        const inputField = document.getElementById("num2");
+        const currentNumber = parseInt("5");
+        inputField.value = currentNumber;
+      }
+
+      function fourtwenty() {
+        const inputField = document.getElementById("num2");
+        const currentNumber = parseInt("4");
+        inputField.value = currentNumber;
+      }
+
+      function herbertadams() {
+        const inputField = document.getElementById("num2");
+        const currentNumber = parseInt("6");
+        inputField.value = currentNumber;
+      }
+
       function calculateSum() {
         var num1 = parseFloat(document.getElementById("num1").value);
         var num2 = parseFloat(document.getElementById("num2").value);
