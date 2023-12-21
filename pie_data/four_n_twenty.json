@@ -1,0 +1,39 @@
+{
+  "pie_detail": {
+    "heading_text": "Four 'n Twenty",
+    "blurb_text": "Classic Aussie pie from Four 'n Twenty that everyone loves.",
+    "ingredients": "Pastry, Beef, Seasonings",
+    "image_url": "pie-1.png",
+    "allergens": {
+      "all": "Gluten, Meat"
+    }
+  },
+  "nutrition": {
+    "serving_size": "180",
+    "energy": {
+      "value": "1100",
+      "di_percent": "18%",
+      "per_100g": "611"
+    },
+    "protein": {
+      "value": "14",
+      "di_percent": "28%",
+      "per_100g": "7.8"
+    },
+    "fat": {
+      "value": "9",
+      "di_percent": "22%",
+      "per_100g": "5"
+    },
+    "carbohydrate": {
+      "value": "18",
+      "di_percent": "12%",
+      "per_100g": "10"
+    },
+    "sodium": {
+      "value": "480",
+      "di_percent": "20%",
+      "per_100g": "267"
+    }
+  }
+}

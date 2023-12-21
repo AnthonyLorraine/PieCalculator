@@ -1,0 +1,39 @@
+{
+  "pie_detail": {
+    "heading_text": "Herbert Adams",
+    "blurb_text": "Indulge in the rich flavors of Herbert Adams' premium pie.",
+    "ingredients": "Premium Pastry, High-Quality Meat, Secret Herbs and Spices",
+    "image_url": "pie-2.png",
+    "allergens": {
+      "all": "Gluten, Meat, Secret Herbs"
+    }
+  },
+  "nutrition": {
+    "serving_size": "220",
+    "energy": {
+      "value": "1500",
+      "di_percent": "20%",
+      "per_100g": "682"
+    },
+    "protein": {
+      "value": "18",
+      "di_percent": "36%",
+      "per_100g": "8.2"
+    },
+    "fat": {
+      "value": "12",
+      "di_percent": "25%",
+      "per_100g": "5.5"
+    },
+    "carbohydrate": {
+      "value": "25",
+      "di_percent": "15%",
+      "per_100g": "11.4"
+    },
+    "sodium": {
+      "value": "550",
+      "di_percent": "30%",
+      "per_100g": "250"
+    }
+  }
+}

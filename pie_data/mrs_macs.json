@@ -1,0 +1,39 @@
+{
+  "pie_detail": {
+    "heading_text": "Mrs Mac's",
+    "blurb_text": "Delicious pie from Mrs Mac's with a perfect blend of flavors.",
+    "ingredients": "Flour, Meat, Water, Salt, Spices",
+    "image_url": "beef-ale-pie.jpg",
+    "allergens": {
+      "all": "Gluten, Meat"
+    }
+  },
+  "nutrition": {
+    "serving_size": "200",
+    "energy": {
+      "value": "1200",
+      "di_percent": "15%",
+      "per_100g": "600"
+    },
+    "protein": {
+      "value": "15",
+      "di_percent": "30%",
+      "per_100g": "7.5"
+    },
+    "fat": {
+      "value": "10",
+      "di_percent": "20%",
+      "per_100g": "5"
+    },
+    "carbohydrate": {
+      "value": "20",
+      "di_percent": "10%",
+      "per_100g": "10"
+    },
+    "sodium": {
+      "value": "500",
+      "di_percent": "25%",
+      "per_100g": "250"
+    }
+  }
+}
