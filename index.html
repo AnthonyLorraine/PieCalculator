@@ -144,11 +144,11 @@
 
     function setPieData(pieJsonFile) {
 
-        fetch('/pie_data/' + pieJsonFile + '.json')
+        fetch('/PieCalculator/pie_data/' + pieJsonFile + '.json')
             .then(response => response.json())
             .then(data => {
                 // Set data for pie details
-                document.getElementById('pieImage').src = "/images/" + data.pie_detail.image_url; // Add image_url to your JSON for the image path
+                document.getElementById('pieImage').src = "/PieCalculator/images/" + data.pie_detail.image_url; // Add image_url to your JSON for the image path
                 document.getElementById('pieHeading').textContent = data.pie_detail.heading_text;
                 document.getElementById('pieBlurb').textContent = data.pie_detail.blurb_text;
                 console.log(data)
